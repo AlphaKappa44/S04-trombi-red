@@ -1,0 +1,8 @@
+Client demande à aller sur /promos.
+            Ok, on lui renvoie le html.
+
+Client lit le HTML, et découvre qu'il y est question d'un /style.css
+Il le requete au serveur : localhost:3000/style.css
+            Ok, j'ai bien un fichier qui s'apelle comme ca
+            dans le dossier static (défini sur /public)
+            Je le renvoie au client.

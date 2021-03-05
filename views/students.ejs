@@ -1,0 +1,19 @@
+<!-- on inclut notre "partial" header -->
+<%- include('partials/header.ejs') %>
+
+<h1>Liste de tous les étudiants</h1>
+<ul class="cards">
+    <% students.forEach((student) => { %>
+        <li class="card">
+            <a>
+                <figure>
+                    <img src="https://cataas.com/cat/says/<%= student.first_name %>" alt="">
+                    <figcaption><%= student.first_name %> <%= student.last_name %></figcaption>
+                </figure>
+            </a>
+        </li>
+    <% }) %>
+</ul>
+
+<!-- on inclut notre "partial" header -->
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,16 @@
+<!-- on inclut notre "partial" header -->
+<%- include('partials/header.ejs') %>
+
+<h1>Liste des promos</h1>
+<ul class="cards">
+    <% promos.forEach((promo) => { %>
+        <li class="card card--label">
+            <a href="/promo/<%=promo.id%>">
+                <%= promo.name %>
+            </a>
+        </li>
+    <% }) %>    
+</ul>
+
+<!-- on inclut notre "partial" footer -->
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="474" height="120" view_box="0 0 474 120"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 02 Mar 2021 04:27:49</desc>
+
+<rect id="frame" x="0" y="0" width="474" height="120" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association CONTIENT/APPARTIENT -->
+<line x1="75" y1="60" x2="253" y2="60" stroke="#66bd63" stroke-width="2"/>
+<text x="146" y="77.0" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="415" y1="60" x2="253" y2="60" stroke="#66bd63" stroke-width="2"/>
+<text x="339" y="77.0" fill="#d73027" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-CONTIENT/APPARTIENT">
+	<path d="M 319 35 a 14 14 90 0 1 14 14 V 60 h -160 V 49 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 333 60.0 v 11 a 14 14 90 0 1 -14 14 H 187 a 14 14 90 0 1 -14 -14 V 60.0 H 160" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="173" y="35" width="160" height="50" fill="none" rx="14" stroke="#66bd63" stroke-width="2"/>
+	<line x1="173" y1="60" x2="333" y2="60" stroke="#66bd63" stroke-width="1"/>
+	<text x="180" y="52.7" fill="#000000" font-family="Verdana" font-size="12">CONTIENT/APPARTIENT</text>
+</g>
+
+<!-- Entity PROMOTION -->
+<g id="entity-PROMOTION">
+	<g id="frame-PROMOTION">
+		<rect x="9" y="26" width="132" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="9" y="51.0" width="132" height="43" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="9" y="26" width="132" height="68" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="9" y1="51" x2="141" y2="51" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="36" y="43.7" fill="#000000" font-family="Verdana" font-size="12">PROMOTION</text>
+	<text x="14" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="85.8" fill="#000000" font-family="Verdana" font-size="12">organisation_github</text>
+</g>
+
+<!-- Entity ETUDIANT -->
+<g id="entity-ETUDIANT">
+	<g id="frame-ETUDIANT">
+		<rect x="365" y="9" width="100" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="365" y="34.0" width="100" height="77" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="365" y="9" width="100" height="102" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="365" y1="34" x2="465" y2="34" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="383" y="26.7" fill="#000000" font-family="Verdana" font-size="12">ETUDIANT</text>
+	<text x="370" y="51.7" fill="#000000" font-family="Verdana" font-size="12">prenom</text>
+	<text x="370" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="370" y="85.8" fill="#000000" font-family="Verdana" font-size="12">pseudo_github</text>
+	<text x="370" y="102.8" fill="#000000" font-family="Verdana" font-size="12">photo</text>
+</g>
+</svg>

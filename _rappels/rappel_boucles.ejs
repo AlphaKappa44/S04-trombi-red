@@ -1,0 +1,26 @@
+<ul>
+    <% for( let index = 0; index < promos.length; index++ ) { %>
+        <li>
+            <!-- pour chaque promo, on affiche un lien vers le github de cette promo. -->
+            <a href="<%= promos[index].github_organization %>">
+                <%= promos[index].name %>
+            </a>
+        </li>
+    <% } %>
+    <% for (const promo of promos) { %>
+        <li>
+            <!-- pour chaque promo, on affiche un lien vers le github de cette promo. -->
+            <a href="<%= promo.github_organization %>">
+                <%= promo.name %>
+            </a>
+        </li>
+    <% } %>
+    <% promos.forEach(promo => { %>
+        <li>
+            <!-- pour chaque promo, on affiche un lien vers le github de cette promo. -->
+            <a href="<%= promo.github_organization %>">
+                <%= promo.name %>
+            </a>
+        </li>
+    <% }) %>
+</ul>
